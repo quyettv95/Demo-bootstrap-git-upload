@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style>
+        .red {
+            background: red;
+            width:100%;
+            min-height: 200px
+        }
+        .blue {
+            background: blue;
+            width:100%;
+            min-height: 200px
+        }
+        .pagination .active a {
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- bs3-tabs -->
+                <div role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <h1>Home</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quisquam pariatur nobis officiis assumenda at aliquam dicta dolores commodi, possimus optio enim dolor atque, esse autem. Minima minus necessitatibus voluptate.</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="about">
+                            <h1>About</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, laudantium, error. Qui quaerat fuga, nihil aliquam nisi, ad fugit, reprehenderit non voluptate amet voluptatem iusto modi eaque fugiat eius id!</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="contact">
+                            <h1>Contact</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, laudantium, error. Qui quaerat fuga, nihil aliquam nisi, ad fugit, reprehenderit non voluptate amet voluptatem iusto modi eaque fugiat eius id!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    </script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
